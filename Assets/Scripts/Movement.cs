@@ -7,13 +7,23 @@ public class Movement : MonoBehaviour
 {
     Vector2 movement;
     Rigidbody body;
+    AudioSource audioSource;
+    public InputAction PlayerControls;
     float rotateSpeed = 100.0f;
     float thrustSpeed = 10000.0f;
     
+    void OnEnable(){
+        PlayerControls.Enable();
+    }
+    void OnDisable(){
+        PlayerControls.Disable();
+    }
     // Start is called before the first frame update
     void Start()
     {
        body = GetComponent<Rigidbody>();
+       audioSource = GetComponent<AudioSource>();
+       Debug.Log(GetComponent<PlayerInput>());
     }
 
     // Update is called once per frame
@@ -30,7 +40,10 @@ public class Movement : MonoBehaviour
     void OnThrust(InputValue value){
         if(value.isPressed){
             ThrustControl(thrustSpeed);
-        } 
+        }
+        else{
+            audioSource.Stop();
+        }
     }
     void RotationControl(float rotateSpeed){
         body.freezeRotation = true;
@@ -39,6 +52,7 @@ public class Movement : MonoBehaviour
     }
     void ThrustControl(float thrustSpeed){
         body.AddRelativeForce(Vector3.up * thrustSpeed * Time.deltaTime);
+        audioSource.Play();
     }
 
 }

@@ -519,13 +519,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1288668192, guid: 70875b33ab54df548bc716d499443ed3, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
+    - target: {fileID: 758120742, guid: 70875b33ab54df548bc716d499443ed3, type: 3}
+      propertyPath: Loop
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1288668192, guid: 70875b33ab54df548bc716d499443ed3, type: 3}
-      propertyPath: m_Constraints
-      value: 56
+    - target: {fileID: 758120742, guid: 70875b33ab54df548bc716d499443ed3, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1288668187, guid: 70875b33ab54df548bc716d499443ed3, type: 3}
+      propertyPath: PlayerControls.m_Id
+      value: 2fcdb0fa-d465-4fff-b600-592b6d7f4b70
+      objectReference: {fileID: 0}
+    - target: {fileID: 1288668187, guid: 70875b33ab54df548bc716d499443ed3, type: 3}
+      propertyPath: PlayerControls.m_Name
+      value: Player Controls
       objectReference: {fileID: 0}
     - target: {fileID: 7938545891729156883, guid: 70875b33ab54df548bc716d499443ed3, type: 3}
       propertyPath: m_Name
