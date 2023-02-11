@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start Scene.unity
+    guid: 0c824b04bca89ce4e801ad95fe13199a
+  - enabled: 1
     path: Assets/Scenes/Over.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -23,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Moving Over Under.unity
     guid: 8de20f8ea7b9c45489b4c39cf638fc08
+  - enabled: 1
+    path: Assets/Scenes/End Scene.unity
+    guid: 50d20c37e35366d419ea08bb0bd08c3f
   m_configObjects: {}

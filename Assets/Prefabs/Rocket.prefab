@@ -575,7 +575,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 117
+  m_VersionIndex: 120
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -929,6 +929,7 @@ GameObject:
   - component: {fileID: 5586753445913106728}
   - component: {fileID: 8475295768402977275}
   - component: {fileID: 6896200052762757632}
+  - component: {fileID: 3532913832440166036}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -1190,6 +1191,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbc35b71d46ee02438b222e98ada49dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3532913832440166036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7938545891729156883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c161bdbfdbc15479ce473c90cb0b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1780653366456213165
